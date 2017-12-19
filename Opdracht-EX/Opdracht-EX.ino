@@ -2,7 +2,7 @@
 int lichtsensorWaarde = 0;
 int pinDHT11 = 4;
 SimpleDHT11 dht11;
-
+// blabkabkabkabkarerhg
 
 void setup() {
   // put your setup code here, to run once:
@@ -64,9 +64,9 @@ void serial_python() {
     }
     else {
       Serial.println("haen geldig commando ontvangen, stuur temp of licht");
-      
+
     }
   }
-serial_python();
+  serial_python();
 }
 
